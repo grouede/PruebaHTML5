@@ -1,8 +1,16 @@
-#header {
+header {
   background-position:  center center;
   background-repeat: no-repeat;
   background-image: url("link/header.jpg");
   height: 188px;
+  width: 100%;
+}
+
+body{
+  width:90%;
+  margin:auto;
+  min-width:600px;
+  max-width:2000px
 }
 
 .pkm {

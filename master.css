@@ -1,25 +1,15 @@
-#texto1 { font-size:30px }
-
-.general {
-  background: #02B1FC;
+.pkm {
   font-size: 30px;
 }
 
-.part1 {
-    text-decoration: overline;
-    text-overflow: clip;
-    text-align: center;
-    border-style: dotted;
+.fuego {
+  background: #cc0000;
 }
 
-.part2 {
-  text-decoration: underline;
-  text-overflow: ellipsis;
-  text-align: left;
+.agua {
+  background: #3333ff;
 }
 
-p.part3 {
-  text-align:right;
-  text-shadow: 4px 4px 8px #FF0000;
-  text-decoration: inherit;
+.planta {
+  background: #2eb82e;
 }

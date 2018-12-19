@@ -1,3 +1,10 @@
+#header {
+  background-position:  center center;
+  background-repeat: no-repeat;
+  background-image: url("link/header.jpg");
+  height: 188px;
+}
+
 .pkm {
   font-size: 30px;
 }
@@ -12,4 +19,9 @@
 
 .planta {
   background: #2eb82e;
+}
+
+#pokemon{
+  font-size: 30px;
+  text-shadow: 4px 4px 8px #000000;
 }

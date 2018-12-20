@@ -1,25 +1,78 @@
-#texto1 { font-size:30px }
-
-.general {
-  background: #02B1FC;
-  font-size: 30px;
+* {
+margin: auto;
+padding: auto;
 }
 
-.part1 {
-    text-decoration: overline;
-    text-overflow: clip;
-    text-align: center;
-    border-style: dotted;
+header, nav, section, aside, footer {
+  display: block;
 }
 
-.part2 {
-  text-decoration: underline;
-  text-overflow: ellipsis;
+header {
+  background-position:  center center;
+  background-repeat: no-repeat;
+  background-image: url("link/header.jpg");
+  height: 188px;
+  width: 100%;
+}
+
+body{
+  text-align: center;
+}
+
+#agrupar{
+  width:90%;
+  margin: 15px auto;
+  min-width:600px;
+  max-width:2000px;
   text-align: left;
 }
 
-p.part3 {
-  text-align:right;
-  text-shadow: 4px 4px 8px #FF0000;
-  text-decoration: inherit;
+nav ul{
+  background: #CCCCCC;
+  padding: 5px 15px;
+  display: inline-block;
+  list-style: none;
+  font: bold 14px verdana, sans-serif;
+}
+
+section{
+  float: left;
+  width: 660px;
+  margin: 20px;
+}
+
+aside{
+  float: left;
+  width: 220px;
+  margin: 20px 0px;
+  padding: 20px;
+  background: #CCCCCC;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+}
+
+.pkm {
+  font-size: 30px;
+}
+
+.fuego {
+  background: #cc0000;
+}
+
+.agua {
+  background: #3333ff;
+}
+
+.planta {
+  background: #2eb82e;
+}
+
+#pokemon{
+  font-size: 30px;
+  text-shadow: 4px 4px 8px #000000;
 }

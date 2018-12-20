@@ -1,3 +1,12 @@
+* {
+margin: auto;
+padding: auto;
+}
+
+header, nav, section, aside, footer {
+  display: block;
+}
+
 header {
   background-position:  center center;
   background-repeat: no-repeat;
@@ -7,10 +16,44 @@ header {
 }
 
 body{
+  text-align: center;
+}
+
+#agrupar{
   width:90%;
-  margin:auto;
+  margin: 15px auto;
   min-width:600px;
-  max-width:2000px
+  max-width:2000px;
+  text-align: left;
+}
+
+nav ul{
+  background: #CCCCCC;
+  padding: 5px 15px;
+  display: inline-block;
+  list-style: none;
+  font: bold 14px verdana, sans-serif;
+}
+
+section{
+  float: left;
+  width: 660px;
+  margin: 20px;
+}
+
+aside{
+  float: left;
+  width: 220px;
+  margin: 20px 0px;
+  padding: 20px;
+  background: #CCCCCC;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
 }
 
 .pkm {

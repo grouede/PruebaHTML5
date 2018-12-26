@@ -9,8 +9,9 @@ body{
   padding: 15px;
   text-align: center;
   border: 29px;
-  -webkit-border-image: url("link/border.png") 29 stretch;
-  border-image: url("link/border.png") 29 stretch;
+  -webkit-border-image: url("link/border.png") 29 repeat;
+  border-image: url("link/border.png") 29 repeat;
+  transform: skew(40deg);
 }
 
 #titulo{

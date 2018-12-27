@@ -11,8 +11,15 @@ body{
   border: 29px;
   -webkit-border-image: url("link/border.png") 29 repeat;
   border-image: url("link/border.png") 29 repeat;
-  transform: skew(40deg);
+  -webkit-transition: -webkit-transform 1s ease-out 0.5s;
 }
+
+
+#principal:hover{
+  -moz-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+}
+
 
 #titulo{
   font: bold 36px BitterMind, verdana, sans-serif;
